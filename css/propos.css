@@ -9,6 +9,11 @@
 }
 
 /*--*/
+
+.navbar-nav a {
+	float: left;
+}
+
 .head-nav ul li a{
 	position: relative;
 	display: inline-block;

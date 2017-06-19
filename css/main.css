@@ -77,6 +77,9 @@ header {
 	text-decoration: none;
 	letter-spacing: 1px;
 }
+.navbar-nav a {
+	float: left;
+}
 .head-nav ul li a{
 	color: #000;
 }
