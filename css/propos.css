@@ -2,10 +2,9 @@
 	display:inline-block;
 	float:left;
 }
-.head-nav {
+.navbar-nav {
 	float: right;
 	padding: 1em 1em;
-	background:#f53f1a;
 }
 
 /*--*/
@@ -14,7 +13,7 @@
 	float: left;
 }
 
-.head-nav ul li a{
+.navbar-nav ul li a{
 	position: relative;
 	display: inline-block;
 	margin: 0px 0px;
@@ -26,14 +25,14 @@
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1.1em;
 }
-.head-nav a:hover,
-.head-nav a:focus {
+.navbar-nav a:hover,
+.navbar-nav a:focus {
 	outline: none;
 }
 .head-nav {
 
 }
-.head-nav ul{
+.navbar-nav ul{
 	padding:0;
 	margin: 0;
 }
@@ -44,17 +43,17 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.head-nav ul li {
+.navbar-nav ul li {
 	display: inline-block;
 	margin: 0;
 	outline: none;
 	text-decoration: none;
 	letter-spacing: 1px;
 }
-.head-nav ul li a{
+.navbar-nav ul li a{
 	color: #000;
 }
-.head-nav ul li a:hover,.head-nav ul li.active a{
+.navbar-nav ul li a:hover,.navbar-nav ul li.active a{
 	color:#FFF;
 }
 ul a:hover,
@@ -63,7 +62,7 @@ ul a:focus {
 	color: #000;
 	text-decoration: none;
 }
-/* Effect 1: Brackets */
+
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
 	display: inline-block;

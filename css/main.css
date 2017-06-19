@@ -33,14 +33,13 @@ header {
 	display:inline-block;
 	float:left;
 }
-.head-nav {
+.navbar-nav {
 	float: right;
 	padding: 1em 1em;
-	background:#f53f1a;
 }
 
 /*--*/
-.head-nav ul li a{
+.navbar-nav ul li a{
 	position: relative;
 	display: inline-block;
 	margin: 0px 0px;
@@ -52,8 +51,8 @@ header {
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1.1em;
 }
-.head-nav a:hover,
-.head-nav a:focus {
+.navbar-nav a:hover,
+.navbar-nav a:focus {
 	outline: none;
 }
 .head-nav {
@@ -80,10 +79,10 @@ header {
 .navbar-nav a {
 	float: left;
 }
-.head-nav ul li a{
+.navbar-nav ul li a{
 	color: #000;
 }
-.head-nav ul li a:hover,.head-nav ul li.active a{
+.navbar-nav ul li a:hover,.navbar-nav ul li.active a{
 	color:#FFF;
 }
 ul a:hover,
