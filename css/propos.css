@@ -35,7 +35,9 @@ margin-right: 0;
 
 }
 
-
+.commentaire {
+	font-style: italic;
+}
 
 .navbar-nav ul{
 	padding:0;
