@@ -42,8 +42,15 @@
 
 <script type="text/javascript">
 var ladate=new Date()
-document.write("Le : ");
-document.write(ladate.getDate()+"/"+(ladate.getMonth()+1)+"/"+ladate.getFullYear())
+document.write("Heure locale : ");
+document.write(ladate.getHours()+":"+ladate.getMinutes()+":"+ladate.getSeconds())
+document.write("<BR>");
+var h=ladate.getHours();
+if (h<10) {h = "0" + h}
+var m=ladate.getMinutes();
+if (m<10) {m = "0" + m}
+var s=ladate.getSeconds();
+if (s<10) {s = "0" + s}
 </script>
 
           <div class="main-head-section">

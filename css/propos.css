@@ -12,7 +12,9 @@
 .navbar-nav a {
 	float: left;
 }
-
+#heure {
+margin-right: 0;
+}
 .navbar-nav ul li a{
 	position: relative;
 	display: inline-block;
