@@ -6,7 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-   <<link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="icon" href="img/AppleFavicon.png">
@@ -15,6 +15,9 @@
     <title>Home - Apple World</title>
   </head>
   <body>
+
+
+
 
     <header>
       <div class="container">
@@ -111,6 +114,21 @@
         				<p>Copyrights © 2017 tous droits réservés </p>
         			</div>
         		</footer>
+
+            <script type="text/javascript">
+var ladate=new Date()
+document.write("Heure brute : ");
+document.write(ladate.getHours()+":"+ladate.getMinutes()+":"+ladate.getSeconds())
+document.write("<BR>");
+var h=ladate.getHours();
+if (h<10) {h = "0" + h}
+var m=ladate.getMinutes();
+if (m<10) {m = "0" + m}
+var s=ladate.getSeconds();
+if (s<10) {s = "0" + s}
+document.write("Heure formatée : ");
+document.write(h+":"+m+":"+s)
+</script>
 
   </body>
 </html>

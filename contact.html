@@ -5,7 +5,7 @@
      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="icon" href="img/AppleFavicon.png">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
@@ -58,14 +58,23 @@
        			 				<p>Besoin de nous contacter pour nous faire parvenir une information, nous faire un retour sur le contenu ou nous dire ce que vous avez aimez (ou non) ? Utilisez ce formulaire, nous vous répondrons dans les meilleurs délais.</p>
        							  <form>
        								 <div class="form_details">
-       					                 <input type="text" class="text" value="Nom" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-       									 <input type="text" class="text" value="Adresse Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
-       									 <input type="text" class="text" value="Votre requête" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+       					         <input type="text" class="text" value="Nom" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nome';}">
+       									 <input type="text" class="text" value="Adresse Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Addrese Mail';}">
+       									 <input type="text" class="text" value="Votre requête" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Requête';}">
        									 <textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
        									 <div class="clearfix"> </div>
        									 <div class="sub-button">
-       									 	<input type="submit" value="Envoyer">
+       									 	<input type="submit" value="Envoyer" onClick="Message()">
        									 </div>
+
+                         <script type="text/javascript">
+                           function Message() {
+                              var msg="Voulez-vous vraiment envoyez votre requête";
+                              console.log(msg)
+                              alert(msg);
+                              }
+                        </script>
+
        						          </div>
        						       </form>
        					        </div>
