@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -60,29 +61,16 @@ if (s<10) {s = "0" + s}
 
 		 			<h3>CONTACT</h3>
 
-          <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist">
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Événement</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Réseaux</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#messages" role="tab">Nos sources</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#settings" role="tab">Divers</a>
-      </li>
-    </ul>
+  
 
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="tab-pane active" id="home" role="tabpanel">La Worldwide Developer Conference (WWDC) d’Apple approche. Comme chaque année, c’est début juin que la marque à la pomme tiendra sa conférence annuelle centrée sur les nouveautés logicielles. Au menu, la version 11 d’iOS, la mise à jour macOS 12.13 ainsi que la nouvelle mouture du système d’exploitation pour la montre connectée Apple Watch (watchOS 4). la conférence inaugurale (keynote) aura lieu le 5 juillet au McEnery Convention Center de San Jose (Californie).</div>
-      <div class="tab-pane" id="profile" role="tabpanel">...</div>
-      <div class="tab-pane" id="messages" role="tabpanel">...</div>
-      <div class="tab-pane" id="settings" role="tabpanel">...</div>
-    </div>
+      <form class="tab">
+        <button class="tablinks" onclick="open(event, 'Événements')">Événements</button>
+        <button class="tablinks" onclick="open(event, 'Réseaux')">Réseaux</button>
+        <button class="tablinks" onclick="open(event, 'Divers')">Divers</button>
+      </form>
+
+
+
 
 
 				<!-- <div class="contact-map">
