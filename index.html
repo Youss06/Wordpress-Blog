@@ -62,6 +62,13 @@
 
 <!-- **************************************BODY************************************** -->
 
+
+
+
+
+
+
+
 <!-- ************************DATE************************* -->
         <script type="text/javascript">
         var ladate=new Date()
@@ -80,7 +87,8 @@
         					<div class="callbacks_container">
         					  	<ul class="rslides" id="slider">
         							<li>
-        								<img src="img/SteveJobs.jpg" class="img-responsive" alt="img principale">
+        								<img src="img/SteveJobs.jpg" class="img-responsive" alt="img principale" id="myImg1" onmouseover="myFunction(this, 1)" onmouseout="myFunction(this, 0)" >
+                        <p id="demo1"></p>
         								<div class="caption">
         									<h3>Tim Cook : "l 'ADN de Steve Jobs sera toujours au cœur d'Apple"</h3>
         									<p>Dans une longue interview accordée à Bloomberg Businessweek, Tim Cook est revenu sur la création d'Apple et sur ses liens profonds avec Steve Jobs.</p>
@@ -94,12 +102,14 @@
 
             <div>
 						<div class="col-md-6">
-							<a href="single.html"><img src="img/app-store-new-york1.jpg" class="img-responsive" alt="img gallery"></a>
+							<a href="single.html"><img src="img/app-store-new-york1.jpg" class="img-responsive" alt="img gallery" id="myImg2" onmouseover="myFunction(this, 1)" onmouseout="myFunction(this, 0)">
+                <p id="demo2"></p></a>
 							<h3><a href="single.html">Pendant ce temps, à l'Apple Store de New York</a></h3>
 							<p>Et pendant ce temps, à l'autre bout des États-Unis, éloignons-nous un peu de la Californie et de la très prochaine WWDC pour partir vers la Côte Est et New-York.</p>
 						</div>
 						<div class="col-md-6">
-							<a href=""><img src="img/GettyImages-539893086.jpg" class="img-responsive" alt="img gallery"></a>
+							<a href=""><img src="img/GettyImages-539893086.jpg" class="img-responsive" alt="img gallery" id="myImg3" onmouseover="myFunction(this, 1)" onmouseout="myFunction(this, 0)">
+              <p id="demo3"></p></a>
 							<h3><a href="">La WWDC démarre lundi, mais Apple devrait déjà accueillir les développeurs. </a></h3>
 							<p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
 						</div>
@@ -155,6 +165,19 @@
 
 <!-- ******************************FIN FOOTER***************************** -->
 
+<!-- ***************** ALT ******************** -->
+<script>
+function myFunction(th, x) {
+    var alt = "demo" + th.id.substr(5);
+
+    if (x==1) {
+    var x = document.getElementById(th.id).alt;
+    document.getElementById(alt).innerHTML = x;}
+    else {
+        document.getElementById(alt).innerHTML = "";
+    }
+}
+</script>
 
 
   </body>

@@ -8,6 +8,12 @@
 }
 
 /*--*/
+/* ***** FONT ******* */
+@font-face {
+  font-family: "diamond";
+	src: url(../fonts/black_diamonds/BlackDiamondsPersonalUse.ttf);
+}
+
 
 .navbar-nav a {
 	float: left;
