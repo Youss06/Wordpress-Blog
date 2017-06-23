@@ -16,6 +16,8 @@
   </head>
   <body>
 
+<!-- ***********************CHRONO*************************** -->
+
     <script type="text/javascript">
                       var seconde=0;
                       document.write("Temps passé sur notre site : ");
@@ -29,6 +31,7 @@
 
     <p id="mychrono"></p>
 
+<!-- ********************FIN CHRONO**************************** -->
 
     <header>
       <div class="container">
@@ -54,13 +57,19 @@
     			</header>
         <!-- **********************FIN HEADER******************************* -->
 
+
+
+
+<!-- **************************************BODY************************************** -->
+
+<!-- ************************DATE************************* -->
         <script type="text/javascript">
         var ladate=new Date()
         document.write("Nous somme le : ");
         document.write(ladate.getDate()+"/"+(ladate.getMonth()+1)+"/"+ladate.getFullYear())
         </script>
 
-
+<!-- *********************FIN DATE************************** -->
 
 
 
@@ -97,7 +106,14 @@
 							<div class="clearfix"> </div>
 				</div>
 
+        <!-- ***************************FIN BODY******************************* -->
+
+
+
+
+<!-- ******************************FOOTER********************************** -->
         <footer>
+
         			<div class="col-md-3 foot-1">
                 <h4>Publicités</h4>
       <ul>
@@ -137,18 +153,7 @@
         			</div>
         		</footer>
 
-            <script type="text/javascript">
-var ladate=new Date()
-document.write("Heure brute : ");
-document.write(ladate.getHours()+":"+ladate.getMinutes()+":"+ladate.getSeconds())
-document.write("<BR>");
-var h=ladate.getHours();
-if (h<10) {h = "0" + h}
-var m=ladate.getMinutes();
-if (m<10) {m = "0" + m}
-var s=ladate.getSeconds();
-if (s<10) {s = "0" + s}
-</script>
+<!-- ******************************FIN FOOTER***************************** -->
 
 
 
