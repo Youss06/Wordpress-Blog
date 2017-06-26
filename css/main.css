@@ -1,7 +1,11 @@
 /* ***** FONT ******* */
 @font-face {
-  font-family: "diamond";
-	src: url(../fonts/black_diamonds/BlackDiamondsPersonalUse.ttf);
+  font-family: "eart";
+	src: url(../fonts/earth_orbiter/earthorbiter.ttf);
+}
+
+#titre,#titres {
+	font-family: "eart";
 }
 
 
